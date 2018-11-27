@@ -24,7 +24,7 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize we
 qlmanage -r
 
 # Pack for JS
-brew install yarn
+brew install yarn --without-node
 brew install nvm
 
 # Pack for Work
