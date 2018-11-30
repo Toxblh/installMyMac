@@ -8,8 +8,10 @@ brew install zsh zsh-completions
 
 # Java 8
 brew cask install java8
+JDK_FOLDER = `ls /Library/Java/JavaVirtualMachines | grep 1.8`
 
 # JEnv
+# http://davidcai.github.io/blog/posts/install-multiple-jdk-on-mac/
 brew install jenv
 echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(jenv init -)"' >> ~/.zshrc
