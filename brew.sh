@@ -1,3 +1,4 @@
+xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Add skill choose a version of cask
@@ -33,3 +34,10 @@ brew install nvm
 brew install git
 brew install watchman
 brew cask install visual-studio-code
+
+# Python 
+# https://github.com/Homebrew/homebrew-core/issues/19286
+sudo mkdir /usr/local/Frameworks
+sudo chown $(whoami):admin /usr/local/Frameworks
+brew install python3
+brew install python@2
