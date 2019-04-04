@@ -41,3 +41,6 @@ sudo mkdir /usr/local/Frameworks
 sudo chown $(whoami):admin /usr/local/Frameworks
 brew install python3
 brew install python@2
+
+# export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+# export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
